@@ -1,9 +1,313 @@
 {
-  "langs": {},
-  "courts": {},
+  "langs": {
+    "en": ["abbrevs"]
+  },
+  "courts": {
+    "csjn": {
+      "name": "Corte Suprema de Justicia de la Nación",
+      "abbrev": "Corte Suprema de Justicia de la Nación",
+      "ABBREV": "CSJN",
+      "variants": {
+        "en": {
+          "abbrev": "Supreme Court of Justice"
+        }
+      }
+    },
+    "cfedcp": {
+      "name": "Cámara Federal de Casación Penal",
+      "abbrev": "Cámara Federal de Casación Penal",
+      "ABBREV": "CFedCP",
+      "variants": {
+        "en": {
+          "abbrev": "Federal Criminal Court of Cassation"
+        }
+      }
+    },
+    "cfedss": {
+      "name": "Cámara Federal de la Seguridad Social",
+      "abbrev": "Cámara Federal de la Seguridad Social",
+      "ABBREV": "CFedSS",
+      "variants": {
+        "en": {
+          "abbrev": "Federal Court of Social Security"
+        }
+      }
+    },
+    "cfedap": {
+      "name": "Cámara Federal de Apelaciones",
+      "abbrev": "Cámara Federal de Apelaciones de %s",
+      "ABBREV": "CFed %s",
+      "variants": {
+        "en": {
+          "abbrev": "Federal Court of %s"
+        }
+      }
+    },
+    "cnccrimco-cf": {
+      "name": "Cámara Nacional de Casación en lo Criminal y Correccional de la Capital Federal",
+      "abbrev": "C. Nac. de Casación en lo Criminal y Correccional de la Cap. Fed.",
+      "ABBREV": "CNCCrimCo-CF",
+      "variants": {
+        "en": {
+          "abbrev": "National Criminal and Correctional Court of Cassation of Capital Federal"
+        }
+      }
+    },
+    "cne": {
+      "name": "Cámara Nacional Electoral",
+      "abbrev": "Cámara Nacional Electoral",
+      "ABBREV": "CNE",
+      "variants": {
+        "en": {
+          "abbrev": "National Electoral Court"
+        }
+      }
+    },
+    "cnat": {
+      "name": "Cámara Nacional de Apelaciones del Trabajo",
+      "abbrev": "Cámara Nacional de Apelaciones del Trabajo",
+      "ABBREV": "CNAT",
+      "variants": {
+        "en": {
+          "abbrev": "National Labour Court of Appeals"
+        }
+      }
+    },
+    "cnarc": {
+      "name": "Cámara Nacional de Apelaciones en las Relaciones de Consumo",
+      "abbrev": "Cámara Nacional de Apelaciones en las Relaciones de Consumo",
+      "ABBREV": "CNARC",
+      "variants": {
+        "en": {
+          "abbrev": "National Consumer Relations Court of Appeals"
+        }
+      }
+    },
+    "cnaciv": {
+      "name": "Cámara Nacional de Apelaciones en lo Civil",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Civil",
+      "ABBREV": "CNACiv.",
+      "variants": {
+        "en": {
+          "abbrev": "National Civil Court of Appeals"
+        }
+      }
+    },
+    "cnacom": {
+      "name": "Cámara Nacional de Apelaciones en lo Comercial",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Comercial",
+      "ABBREV": "CNACom.",
+      "variants": {
+        "en": {
+          "abbrev": "National Commercial Court of Appeals"
+        }
+      }
+    },
+    "cnacivycomfed": {
+      "name": "Cámara Nacional de Apelaciones en lo Civil y Comercial Federal",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Civil y Comercial Federal",
+      "ABBREV": "CNACiv y Com. Fed.",
+      "variants": {
+        "en": {
+          "abbrev": "Federal Civil and Commercial Court of Appeals"
+        }
+      }
+    },
+    "cnacontadmfed": {
+      "name": "Cámara Nacional de Apelaciones en lo Contencioso-Administrativo Federal",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Contencioso-Administrativo Federal",
+      "ABBREV": "CNACont. Adm. Fed.",
+      "variants": {
+        "en": {
+          "abbrev": "Federal Contentious-Administrative Court of Appeals"
+        }
+      }
+    },
+    "cnacrimycorr": {
+      "name": "Cámara Nacional de Apelaciones en lo Criminal y Correccional",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Criminal y Correccional",
+      "ABBREV": "CNACrim. y Corr.",
+      "variants": {
+        "en": {
+          "abbrev": "National Criminal and Correctional Court of Appeals"
+        }
+      }
+    },
+    "cnacrimycorrfed": {
+      "name": "Cámara Nacional de Apelaciones en lo Criminal y Correccional Federal",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Criminal y Correccional Federal",
+      "ABBREV": "CNACrim. y Corr. Fed.",
+      "variants": {
+        "en": {
+          "abbrev": "Federal Criminal and Correctional Court of Appeals"
+        }
+      }
+    },
+    "cnapenecon": {
+      "name": "Cámara Nacional de Apelaciones en lo Penal Económico",
+      "abbrev": "Cámara Nacional de Apelaciones en lo Penal Económico",
+      "ABBREV": "CNAPen. Econ.",
+      "variants": {
+        "en": {
+          "abbrev": "National Financial Criminal Court of Appeals"
+        }
+      }
+    }
+  },
   "jurisdictions": {
     "ar": {
-      "name": "Argentina"
+      "name": "Argentina",
+      "abbrev": "Argentina",
+      "courts": {
+        "csjn": {},
+        "cne": {}
+      }
+    },
+    "ar:capfed": {
+      "name": "Capital Federal",
+      "abbrev": "Capital Federal",
+      "courts": {
+        "cnccrimco-cf": {},
+        "cnat": {},
+        "cnarc": {},
+        "cnaciv": {},
+        "cnacom": {},
+        "cnacivycomfed": {},
+        "cnacontadmfed": {},
+        "cnacrimycorr": {},
+        "cnacrimycorrfed": {},
+        "cnapenecon": {}
+      }
+    },
+    "ar:federal": {
+      "name": "Justicia Federal",
+      "abbrev": "Justicia Federal",
+      "courts": {
+        "cfedcp": {},
+        "cfedss": {}
+      }
+    },
+    "ar:federal:bahia.blanca": {
+      "name": "Bahía Blanca",
+      "abbrev": "Bahía Blanca",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:piedra.buena": {
+      "name": "Comandante Luis Piedra Buena",
+      "abbrev": "Comandante Luis Piedra Buena",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:comodoro.rivadavia": {
+      "name": "Comodoro Rivadavia",
+      "abbrev": "Comodoro Rivadavia",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:cordoba": {
+      "name": "Córdoba",
+      "abbrev": "Córdoba",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:corrientes": {
+      "name": "Corrientes",
+      "abbrev": "Corrientes",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:general.roca": {
+      "name": "General Roca",
+      "abbrev": "General Roca",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:la.plata": {
+      "name": "La Plata",
+      "abbrev": "La Plata",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:mar.del.plata": {
+      "name": "Mar del Plata",
+      "abbrev": "Mar del Plata",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:mendoza": {
+      "name": "Mendoza",
+      "abbrev": "Mendoza",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:parana": {
+      "name": "Paraná",
+      "abbrev": "Paraná",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:posadas": {
+      "name": "Posadas",
+      "abbrev": "Posadas",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:resistencia": {
+      "name": "Resistencia",
+      "abbrev": "Resistencia",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:rosario": {
+      "name": "Rosario",
+      "abbrev": "Rosario",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:salta": {
+      "name": "Salta",
+      "abbrev": "Salta",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:san.martin": {
+      "name": "San Martín",
+      "abbrev": "San Martín",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:tucuman": {
+      "name": "Tucumán",
+      "abbrev": "Tucumán",
+      "courts": {
+        "cfedap": {}
+      }
+    },
+    "ar:federal:san.justo": {
+      "name": "San Justo",
+      "abbrev": "San Justo",
+      "courts": {
+        "cfedap": {
+          "name": "Cámara Federal de Apelaciones en lo Civil, Comercial y Contencioso Administrativo de San Justo",
+          "abbrev": "Cámara Federal de Apelaciones en lo Civil, Comercial y Contencioso Administrativo de San Justo"
+        }
+      }
     }
   }
 }

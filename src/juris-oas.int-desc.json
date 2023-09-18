@@ -2,7 +2,9 @@
   "langs": {},
   "courts": {
     "iachr": {
-      "name": "Corte Interamericana de Derechos Humanos"
+      "name": "Corte Interamericana de Derechos Humanos",
+      "abbrev": "Corte IDH",
+      "ABBREV": "Corte IDH"
     }
   },
   "jurisdictions": {
