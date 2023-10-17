@@ -11,14 +11,30 @@
         "de": {
           "abbrev": "IGH",
           "name": "Internationaler Gerichtshof"
+        },
+        "es": {
+          "abbrev": "C.I.J.",
+          "name": "Corte Internacional de Justicia"
         }
       }
     },
     "ictr": {
-      "name": "International Criminal Tribunal for Rwanda"
+      "name": "International Criminal Tribunal for Rwanda",
+      "variants":{
+        "es":{
+          "abbrev": "T.P.I.R.",
+          "name": "Tribunal Penal Internacional para Ruanda"
+        }
+      }
     },
     "icty": {
-      "name": "International Criminal Tribunal for the Former Yugoslavia"
+      "name": "International Criminal Tribunal for the Former Yugoslavia",
+      "variants":{
+        "es":{
+          "abbrev": "T.P.I.Y.",
+          "name": "Tribunal Penal Internacional para la Ex Yugoslavia"
+        }
+      }
     },
     "itlos": {
       "name": "International Tribunal for the Law of the Sea",
